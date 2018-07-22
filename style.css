@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+    color: white;
+	font-size: 14;
+	font-weight: bold;
+	font-family: Helvetica; 
+    background-image:url(background.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+	-webkit-user-select: none;
+}
+
+#score { 
+	position: absolute;
+	top: 8;
+	left: 275;
+}
+
+#hiscore { 
+	position: absolute;
+	top: 8;
+	left: 10;
+}
+
+#win {
+	position: absolute;
+	width: 320;
+	top: 200;
+	text-align: center;
+	font-size: 48;
+	visibility: hidden;
+}
+
+#over {
+	position: absolute;
+	width: 320;
+	top: 200;
+	text-align: center;
+	font-size: 40;
+	visibility: hidden;
+}
+
+#message {
+	position: absolute;
+	width: 320;
+	top: 400;
+	text-align: center;
+	font-size: 14;
+}
+
+#credits {
+	position: absolute;
+	width: 320;
+	top: 450;
+	text-align: center;
+}
